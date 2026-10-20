@@ -27,3 +27,12 @@ if __name__ == "__main__":
         return sum(n * p for n, p in zip(notas, pesos)) / sum(pesos)
     pesos = [0.2, 0.2, 0.4, 0.2]
     print(f"Media ponderada: {media_ponderada(notas, pesos):.2f}")
+
+def nota_maxima(notas):
+    return max(notas)
+
+
+def nota_minima(notas):
+    return min(notas)
+print(f"Nota más alta: {nota_maxima(notas)}")
+print(f"Nota más baja: {nota_minima(notas)}")
