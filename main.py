@@ -5,7 +5,9 @@ def media(notas):
 
 if __name__ == "__main__":
     notas = [6.5, 7, 8.25, 5]
-    print(f"Media: {media(notas):.2f}")
+    m = media(notas)
+    print(f"Media: {m:.2f}")
+    print(f"Calificación: {calificacion(m)}")
 def calificacion(nota):
     """Devuelve la calificación en texto de una nota numérica."""
     if nota < 5:
