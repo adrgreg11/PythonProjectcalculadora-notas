@@ -36,3 +36,12 @@ def nota_minima(notas):
     return min(notas)
 print(f"Nota más alta: {nota_maxima(notas)}")
 print(f"Nota más baja: {nota_minima(notas)}")
+
+def nota_maxima(notas):
+    """Devuelve la nota más alta de una lista."""
+    return max(notas)
+
+
+def nota_minima(notas):
+    """Devuelve la nota más baja de una lista."""
+    return min(notas)
