@@ -25,3 +25,5 @@ if __name__ == "__main__":
     def media_ponderada(notas, pesos):
         """Media ponderada: cada nota se multiplica por su peso."""
         return sum(n * p for n, p in zip(notas, pesos)) / sum(pesos)
+    pesos = [0.2, 0.2, 0.4, 0.2]
+    print(f"Media ponderada: {media_ponderada(notas, pesos):.2f}")
