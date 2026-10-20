@@ -19,7 +19,7 @@ def calificacion(nota):
 if __name__ == "__main__":
     notas = [6.5, 7, 8.25, 5]
     m = media(notas)
-    print(f"Media del grupo: {m:.2f}")
+    print(f"Nota media del grupo: {m:.2f}")
     print(f"Calificación: {calificacion(m)}")
 
     def media_ponderada(notas, pesos):
